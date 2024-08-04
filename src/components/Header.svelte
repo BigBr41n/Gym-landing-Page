@@ -9,7 +9,7 @@
     <div class="max-w-[1400] mx-auto w-full flex items-center justify-between p-4 py-6">
         <a href="/">
             <h1 class="font-semibold text-xl">
-                Slowly 
+                Swoley
                 <span class="text-indigo-400 ">Moley</span>
             </h1>
         </a>
