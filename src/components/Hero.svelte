@@ -23,7 +23,7 @@
             <span class="italic">personalized workouts, exercise explanations, analytics</span> 
             and much much more.
         </p>
-        <CtAs  />
+        <CtAs dark={false} />
         <Stars />
      </div>
 </SectionWrapper>

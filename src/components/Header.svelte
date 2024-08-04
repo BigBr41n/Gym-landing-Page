@@ -1,5 +1,5 @@
-<script>
-
+<script lang="ts">
+     import { openModal } from "../store/index";
 </script>
 
 
@@ -13,14 +13,14 @@
                 <span class="text-indigo-400 ">Moley</span>
             </h1>
         </a>
-        <button class="md:hidden grid place-items-center ">
+        <button class="md:hidden grid place-items-center " on:click={() => ($openModal = true)}>
             <i class="fa-solid fa-bars"></i>
         </button>
 
         <nav class="hidden md:flex items-center gap-4 lg:gap-6 ">
-            <a href="#page" class="text-gray-500 duration-200 cursor-pointer  hover:text-indigo-400">Product</a>
-            <a href="#page" class="text-gray-500 duration-200 cursor-pointer  hover:text-indigo-400">Reviews</a>
-            <a href="#page" class="text-gray-500 duration-200 cursor-pointer  hover:text-indigo-400">FAQs</a>
+            <a href="#product" class="text-gray-500 duration-200 cursor-pointer  hover:text-indigo-400">Product</a>
+            <a href="#reviews" class="text-gray-500 duration-200 cursor-pointer  hover:text-indigo-400">Reviews</a>
+            <a href="#fqs" class="text-gray-500 duration-200 cursor-pointer  hover:text-indigo-400">FAQs</a>
     
             <button class="specialBtn" >
                 <p>start free today</p>
